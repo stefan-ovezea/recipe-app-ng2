@@ -12,14 +12,7 @@
     "curly": true,
     "eofline": true,
     "forin": true,
-<<<<<<< HEAD
     "import-blacklist": [true, "rxjs"],
-=======
-    "import-blacklist": [
-      true,
-      "rxjs"
-    ],
->>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     "import-spacing": true,
     "indent": [
       true,
