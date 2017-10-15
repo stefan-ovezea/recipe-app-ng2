@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+<<<<<<< HEAD
 import { CommonModule } from "@angular/common";
 
 import { AppComponent } from './app.component';
@@ -27,6 +28,17 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
   imports: [
     BrowserModule,
     CommonModule,
+=======
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     FormsModule,
     HttpModule
   ],

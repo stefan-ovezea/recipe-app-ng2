@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
@@ -5,13 +6,26 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(() => {
+=======
+import { TestBed, async } from '@angular/core/testing';
+
+import { AppComponent } from './app.component';
+
+describe('AppComponent', () => {
+  beforeEach(async(() => {
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
       ],
+<<<<<<< HEAD
     });
     TestBed.compileComponents();
   });
+=======
+    }).compileComponents();
+  }));
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
 
   it('should create the app', async(() => {
     const fixture = TestBed.createComponent(AppComponent);

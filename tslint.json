@@ -12,7 +12,14 @@
     "curly": true,
     "eofline": true,
     "forin": true,
+<<<<<<< HEAD
     "import-blacklist": [true, "rxjs"],
+=======
+    "import-blacklist": [
+      true,
+      "rxjs"
+    ],
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     "import-spacing": true,
     "indent": [
       true,
@@ -42,11 +49,21 @@
     ],
     "no-construct": true,
     "no-debugger": true,
+<<<<<<< HEAD
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-empty-interface": true,
     "no-eval": true,
     "no-inferrable-types": true,
+=======
+    "no-empty": false,
+    "no-empty-interface": true,
+    "no-eval": true,
+    "no-inferrable-types": [
+      true,
+      "ignore-params"
+    ],
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-string-throw": true,
@@ -97,9 +114,24 @@
       "check-separator",
       "check-type"
     ],
+<<<<<<< HEAD
 
     "directive-selector": [true, "attribute", "app", "camelCase"],
     "component-selector": [true, "element", "app", "kebab-case"],
+=======
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+>>>>>>> 9bcd97186962ccdcf1e97be2ab69cbc5540a522b
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
